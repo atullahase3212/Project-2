@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: abcd/project2:latest
+        image: abcd/project2
         ports:
         - containerPort: 80
