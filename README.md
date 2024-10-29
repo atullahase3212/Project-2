@@ -283,7 +283,7 @@ Goto Jenkins – Manage Jenkins – Credentials – Global Credentials – Docke
             steps {
 
                 sh 'sudo kubectl create -f deploy.yaml'
-                sh 'sudo kubectl create -f servic.yaml'
+                sh 'sudo kubectl create -f service.yaml'
             }
         }        
 
